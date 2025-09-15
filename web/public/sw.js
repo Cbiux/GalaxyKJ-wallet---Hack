@@ -1,4 +1,4 @@
-const CACHE_NAME = 'galaxy-wallet-v3';
+const CACHE_NAME = 'galaxy-wallet-v4';
 const OFFLINE_CACHE = 'galaxy-wallet-offline-v3';
 const TRANSACTION_QUEUE_KEY = 'transaction-queue';
 
@@ -13,7 +13,7 @@ const STATIC_ASSETS = [
   '/static/js/bundle.js',
   '/static/css/main.css',
   '/nyx-wallet-logo.png',
-  '/galaxy-text-logo.png'
+  '/nyx-text-logo.png'
 ];
 
 // Service Worker Installation
