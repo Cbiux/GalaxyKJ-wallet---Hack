@@ -50,7 +50,7 @@ export function GalaxyLogin({ onLoginSuccess, onRecoveryClick, onClose }: Galaxy
 
       <div className="text-center mb-6">
         <Image
-          src="/images/galaxy-smart-wallet-logo.png"
+          src="/images/nyx-wallet-logo.png"
           alt="Galaxy Logo"
           className="mx-auto mb-4"
           width={32}

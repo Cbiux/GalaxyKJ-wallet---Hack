@@ -23,7 +23,7 @@ export function Header({ onGetStarted, isLoading }: HeaderProps) {
         className="flex items-center"
       >
         <Image
-          src="/images/galaxy-smart-wallet-logo.png"
+          src="/images/nyx-wallet-logo.png"
           alt="Galaxy Smart Wallet"
           width={120}
           height={120}

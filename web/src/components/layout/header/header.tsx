@@ -138,7 +138,7 @@ export function Header({ onCreateWallet, onLogin }: HeaderProps) {
           onClick={() => router.push("/")}
         >
           <Image
-            src="/images/galaxy-smart-wallet-logo.png"
+            src="/images/nyx-wallet-logo.png"
             alt="Galaxy Smart Wallet Logo"
             width={40}
             height={40}

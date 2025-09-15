@@ -12,7 +12,7 @@ const STATIC_ASSETS = [
   '/offline',
   '/static/js/bundle.js',
   '/static/css/main.css',
-  '/galaxy-smart-wallet-logo.png',
+  '/nyx-wallet-logo.png',
   '/galaxy-text-logo.png'
 ];
 

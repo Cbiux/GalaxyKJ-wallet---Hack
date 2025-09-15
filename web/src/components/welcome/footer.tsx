@@ -9,7 +9,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <Image
-              src="/images/galaxy-smart-wallet-logo.png"
+              src="/images/nyx-wallet-logo.png"
               alt="Galaxy Smart Wallet"
               width={50}
               height={50}
