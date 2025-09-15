@@ -8,10 +8,11 @@ import { useClientTranslation } from "@/contexts/language-provider";
 
 interface HeaderProps {
   onGetStarted: () => void;
+  onSignIn: () => void;
   isLoading: boolean;
 }
 
-export function Header({ onGetStarted, isLoading }: HeaderProps) {
+export function Header({ onGetStarted, onSignIn, isLoading }: HeaderProps) {
   const { t } = useClientTranslation();
 
   return (
@@ -43,6 +44,11 @@ export function Header({ onGetStarted, isLoading }: HeaderProps) {
           label={t("home.header.getStarted")}
           loadingLabel="Loading..."
           isLoading={isLoading}
+        />
+        <OutWalletButton
+          onClick={onSignIn}
+          label="Sign In"
+          size="default"
         />
       </motion.div>
     </header>

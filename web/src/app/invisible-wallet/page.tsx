@@ -5,11 +5,13 @@
  */
 
 import { InvisibleWalletDemo } from '@/components/invisible-wallet/invisible-wallet-demo';
+import { StarBackground } from '@/components/effects/star-background';
 
 export default function InvisibleWalletPage() {
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
-      <div className="container mx-auto px-4">
+    <div className="relative w-full min-h-screen bg-black text-white overflow-hidden">
+      <StarBackground />
+      <div className="relative z-10 container mx-auto px-4 py-8">
         <InvisibleWalletDemo />
       </div>
     </div>

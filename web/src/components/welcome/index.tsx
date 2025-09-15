@@ -85,6 +85,10 @@ export function WelcomeScreen() {
     }
   }
 
+  const handleSignIn = () => {
+    router.push("/sign-in")
+  }
+
   return (
     <div
       ref={containerRef}
@@ -112,7 +116,7 @@ export function WelcomeScreen() {
         </div>
       )}
 
-      <Header onGetStarted={handleGetStarted} isLoading={isCreating} />
+      <Header onGetStarted={handleGetStarted} onSignIn={handleSignIn} isLoading={isCreating} />
 
       <HeroSection
         scrollYProgress={useScroll({ target: containerRef }).scrollYProgress}
