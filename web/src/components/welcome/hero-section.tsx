@@ -38,7 +38,7 @@ export function HeroSection({ scrollYProgress }: HeroSectionProps) {
           >
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500/20 to-blue-500/20 blur-2xl animate-pulse-slow"></div>
             <Image
-              src="/images/galaxy-text-logo.png"
+              src="/images/nyx-text-logo.png"
               alt="Galaxy Smart Wallet"
               width={320}
               height={320}

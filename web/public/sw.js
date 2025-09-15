@@ -13,7 +13,7 @@ const STATIC_ASSETS = [
   '/static/js/bundle.js',
   '/static/css/main.css',
   '/nyx-wallet-logo.png',
-  '/galaxy-text-logo.png'
+  '/nyx-text-logo.png'
 ];
 
 // Service Worker Installation
